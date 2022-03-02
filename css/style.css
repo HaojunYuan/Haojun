@@ -139,6 +139,7 @@ a:hover{
 }
 
 .btn:hover {
+  color: #ffffff;
   background: #139487;
   text-decoration: none;
 }
