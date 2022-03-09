@@ -88,21 +88,21 @@ a:hover{
 }
 
 
-.topCloud{
+/* .topCloud{
   position: absolute;
   top:5%;
   right: 30%;
   width: 150px;
   height: auto;
-}
+} */
 
-.bottomCloud{
+/* .bottomCloud{
   position: absolute;
   top: 15%;
   left:25%;
   width:150px;
   height:auto;
-}
+} */
 
 .intro{
   width: 30%;
