@@ -179,8 +179,12 @@ a:hover{
   text-decoration: none;
 }
 
+.footer-link{
+  font-size: 1.25rem;
+}
+
 .copyright{
   color: #146356;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin:40px 0;
 }
