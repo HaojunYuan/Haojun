@@ -21,7 +21,7 @@ html {
   padding: none;
 }
 
-li{
+.title{
   display:inline-block;
 }
 
@@ -56,6 +56,11 @@ hr {
 }
 
 p{
+  font-size: 20px;
+  line-height: 2;
+}
+
+li{
   font-size: 20px;
   line-height: 2;
 }
@@ -109,19 +114,35 @@ a:hover{
   margin: auto;
 }
 
+.gt-img{
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+}
+
+.iOS-club-img{
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+}
+
 .iOS-dev-img{
   float: left;
   margin-right: 30px;
   width: 150px;
-
 }
 
 .web-dev-img{
-  float: right;
-  margin-left: 30px;
+  float: left;
+  margin-right: 30px;
   width: 150px;
 }
 
+.gt-row{
+  margin:100px auto 100px;
+  text-align: left;
+  width:50%;
+}
 
 .skill-row{
   margin:100px auto 100px;
