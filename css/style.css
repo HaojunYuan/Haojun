@@ -21,7 +21,7 @@ html {
 }
 
 .navbar{
-  padding:none;
+  padding-right: 1.5rem;
   margin:none;
 }
 
@@ -96,7 +96,7 @@ a:hover{
 }
 
 .profile-pic{
-  width:270px;
+  width:220px;
 }
 
 /* Middle container */
@@ -181,10 +181,6 @@ a:hover{
 
   p{
     font-size: 2rem;
-  }
-
-  .profile-pic{
-    width: 220px;
   }
 
   .intro{
