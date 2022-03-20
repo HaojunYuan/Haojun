@@ -188,9 +188,18 @@ a:hover{
   }
 
   .icon{
-    float: none;
+    float:none;
     width: 100%;
+    text-align: center;
     margin: 50px 0;
+  }
+  .gt-row{
+    width: 60%;
+  }
+
+  .skill-row{
+    width: 60%;
+
   }
 
 
