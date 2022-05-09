@@ -1,5 +1,5 @@
-body{
-  color:#064635;
+body {
+  color: #064635;
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   text-align: center;
@@ -8,37 +8,39 @@ body{
 html {
   scroll-behavior: smooth;
 }
+
 /* Top container */
-.top-container{
+.top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 2rem;
 }
 
 .background {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.navbar{
+.navbar {
   padding-right: 1.5rem;
-  margin:none;
+  margin: none;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 0.5rem;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #146356;
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: #146356;
 }
 
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 99, 86, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 99, 86, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-h1{
+h1 {
   color: #146356;
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -48,26 +50,26 @@ h1{
 
 }
 
-.summary{
+.summary {
   color: #65C18C;
   font-size: 1.6rem;
-  font-weight:normal;
+  font-weight: normal;
   margin: 30px auto 0 auto;
 }
 
-h2{
+h2 {
   color: #146356;
   font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-weight: bold;
   font-size: 2rem;
 }
 
-p{
+p {
   font-size: 1.5rem;
   line-height: 2;
 }
@@ -80,68 +82,69 @@ hr {
   width: 6%;
 }
 
-li{
+li {
   font-size: 20px;
   line-height: 2;
 }
 
-a{
+a {
   color: #146356;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.3rem;
   margin: 0 20px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-a:hover{
-  color:#5D8BF4;
+a:hover {
+  color: #5D8BF4;
 }
 
-.profile-pic{
-  width:13.75rem;
+.profile-pic {
+  width: 13.75rem;
 }
 
 /* Middle container */
 
-.middle-container{
+.middle-container {
   margin: 100px 0;
 }
 
-.greeting{
+.greeting {
   padding: 3rem 0;
 }
 
-.intro{
+.intro {
   width: 40%;
   margin: auto;
   text-align: justify;
 }
 
-.icon{
+.icon {
   float: left;
-  margin: 0 3.5rem 3.5rem 0;
-  width: 250px;
+  margin: 0 2rem 2.5rem 0;
+  width: 200px;
 }
 
-.gt-row{
-  margin:100px auto 100px;
+.gt-row {
+  margin: 100px auto 100px;
   text-align: justify;
-  width:50%;
+  width: 55%;
 }
 
-.skill-row{
-  margin:100px auto 100px;
+.skill-row {
+  margin: 100px auto 100px;
   text-align: justify;
-  width:50%;
+  width: 60%;
 }
 
 /* Bottom Container */
-.bottom-container{
+.bottom-container {
   background-color: #65C18C;
   padding: 50px 0 20px;
 }
-.contact-message{
-  width:40%;
+
+.contact-message {
+  width: 40%;
   margin: 40px auto;
 }
 
@@ -159,7 +162,7 @@ a:hover{
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
-  margin:none;
+  margin: none;
   text-decoration: none;
 }
 
@@ -169,65 +172,66 @@ a:hover{
   text-decoration: none;
 }
 
-.footer-link{
+.footer-link {
   font-size: 1.25rem;
 }
 
-.copyright{
+.copyright {
   color: #146356;
   font-size: 1.2rem;
-  margin:40px 0;
+  margin: 40px 0;
 }
 
 @media (max-width:991px) {
 
-  hr{
+  hr {
     width: 10%;
   }
 
-  h1{
+  h1 {
     font-size: 6rem;
   }
 
-  .summary{
+  .summary {
     font-size: 2rem;
   }
 
-  h2{
+  h2 {
     font-size: 4rem;
   }
 
-  h3{
-    font-size:3rem;
+  h3 {
+    font-size: 3rem;
   }
 
-  p{
-    font-size:2rem;
+  p {
+    font-size: 2rem;
   }
 
-  .profile-pic{
-    width:18rem;
+  .profile-pic {
+    width: 18rem;
   }
 
-  .intro{
+  .intro {
     width: 70%;
   }
 
-  .icon{
-    float:none;
+  .icon {
+    float: none;
     width: 50%;
     text-align: center;
     margin: 4rem 10.5rem;
   }
-  .gt-row{
+
+  .gt-row {
     width: 70%;
   }
 
-  .skill-row{
+  .skill-row {
     width: 70%;
   }
 
-  .btn{
+  .btn {
     width: 300px;
   }
 
